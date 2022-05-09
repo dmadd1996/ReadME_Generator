@@ -1,8 +1,9 @@
 // TODO: Include packages needed for this application
+const path = require('path')
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
-const { title } = require('process');
+//const { title } = require('process');
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -56,7 +57,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   // Use fs (file system) here!
-
+  return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
 // TODO: Create a function to initialize app

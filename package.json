@@ -19,6 +19,7 @@
   "homepage": "https://github.com/dmadd1996/ReadME_Generator#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
-    "inquirer": "^8.2.3"
+    "inquirer": "^8.2.3",
+    "path": "^0.12.7"
   }
 }

@@ -31,7 +31,3 @@ dmadd1996
 ## E-Mail
 
 dmadd1996@gmail.com
-
-## GIF of Usage:
-
-![GIF](./assets/gif/ezgif.com-gif-maker.gif)
